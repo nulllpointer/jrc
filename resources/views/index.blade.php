@@ -89,7 +89,6 @@
                         <li><a href="/about">ABOUT</a></li>
                         <li><a href="/services">SERVICES</a></li>
                         <li><a href="/projects">PROJECTS</a></li>
-                        <li><a href="/news">NEWS</a></li>
                         <li><a href="/contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -120,9 +119,14 @@
                     <div class="single-slider sliderthree text-center">
                         <div class="welcome-text">
                             <h1>JR</h1>
-                            <h1 class="titlecolor"> CONSULTANCY</h1>
-                            <p>We have an expertise in the field of hydro power. Our </p>
-                            <p>experienced team is available for any civil tasks </p>
+                            <h1 class="titlecolor"> CONSULTANT</h1>
+                            <p>Welcome to the home of one of the renowned engineering consulting firm of Nepal.
+                            </p><br>
+                            <p>JRC is a company that primarily provides comprehensive solution in Engineering, Environmental and Social studies.  
+                            </p>
+                            <p>JRC possesses over 28 years of experience working with variety of infrastructure development projects and we strongly believe in high quality services and customer satisfaction.
+                            </p> <br>
+
                          {{--   <div class="welcome-btn">
                                 <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
                                 <a href="#" class="btn-start rippler rippler-inverse active"><span>GET STARTED NOW</span></a>
@@ -153,7 +157,8 @@
             <div class="col-sm-8 text-left">
                 <div class="get-quate-content">
                     <h2>HANDLE YOUR PROJECT WITH PROFESSIONALS</h2>
-                    <p>Maecenas scelerisque felis ornare placerat tempus. In turpis nisi, viverra hendrerit dolor vel, auctor blandit sapien. Aenean quis venenatis felis, adipiscing pretium nunc.</p>
+                    <p>Do explore our website and let us know if we can provide you any solution.
+                    </p>
                 </div>
             </div>
             <div class="col-sm-4 text-right">

@@ -89,7 +89,6 @@
                             <li><a href="/about">ABOUT</a></li>
                             <li class="active"><a href="/services">SERVICES</a></li>
                             <li><a href="/projects">PROJECTS</a></li>
-                            <li><a href="/news">NEWS</a></li>
                             <li><a href="/contact">CONTACT</a></li>
                         </ul>
                     </div>
@@ -101,7 +100,7 @@
     </div>
 
     <!-- end nav and topbar area -->
-     <section class="constructo-page-title-area parallaxsection">
+    {{-- <section class="constructo-page-title-area parallaxsection">
     <div class="parallax-windowf" data-parallax="scroll" data-image-src="img/home1.jpg"></div>
         <div class="display-cell">
             <div class="container">
@@ -120,7 +119,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- end of home area -->
    {{-- <section class="constructo-get-quote-area">
         <div class="container">
@@ -211,7 +210,7 @@
                 <div class="col-xs-12 text-center">
                     <div class="section-title">
                         <h2>WHAT WE DO</h2>
-                        <p>A brief story about how this process works, keep an eye till the end.</p>
+                        <p>JRC provides integrated and multi-disciplinary professional services from concept formulation to completion of the Projects/Studies in order to tailor the requirements of clients.</p>
                         <div class="line">
                             <img src="img/line.png" alt="theconstructo.com">
                         </div>
@@ -221,61 +220,110 @@
             <div class="row padding-top">
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
-                        <img src="img/servic-1.jpg" alt="theconstructo.com">
+                        <img src="img/survey.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
                         <div class="services-content">
-                            <h3>HOME MAINTENANCE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit dapibus ut ac justo. </p>
-                            <a href="single-services.html" class="services-btn">SERVICE DETAILS</a>
+                            <h3>Survey and Assessment</h3>
+                            <p>Land Use, Topographic and Resource Survey/Appraisal. Geology, Hydrology and Soil Survey and Mapping. Traffic and ...
+
+                            </p>
+                            <a href="/surveyDetails" class="services-btn">SERVICE DETAILS</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
-                        <img src="img/srevice-2.jpg" alt="theconstructo.com">
+                        <img src="img/research.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
                         <div class="services-content">
-                            <h3>ARCHITECTURE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit dapibus ut ac justo. </p>
-                            <a href="single-services.html" class="services-btn">SERVICE DETAILS</a>
+                            <h3>Research and Studies</h3>
+                            <p>
+                            Pre-Investment Studies.
+                            Pre-feasibility, Feasibility Studies.
+                            Social, Economic and Financial Studies.
+                            Preparation of Resettlement Action Plans...
+                                <br>
+                            <a href="/researchDetails" class="services-btn active">SERVICE DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-left">
+                    <div class="constructo-single-services" >
+                        <img src="img/servic-3.jpg" alt="theconstructo.com" style="height: 232.11px; width: 100%">
+                        <div class="services-content" >
+                            <h3>Investigation, Testing and Analysis</h3>
+                            <p>Geo-technical Investigation (Sub-surface Exploration by Drilling)  ...</p>
+                            <a href="/investigationDetails" class="services-btn">SERVICE DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-sm-4 text-left">
+                    <div class="constructo-single-services">
+                        <img src="img/servic-4.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
+                        <div class="services-content">
+                            <h3>Project Planning and Design</h3>
+                            <p>Design Review . Outline and Detailed Engineering and Structural Design...
+                            </p><br><br>
+                            <a href="/projectDetails" class="services-btn">SERVICE DETAILS</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
-                        <img src="img/servic-3.jpg" alt="theconstructo.com">
+                        <img src="img/servic-5.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
                         <div class="services-content">
-                            <h3>PROJECTION VIEW</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit dapibus ut ac justo. </p>
-                            <a href="single-services.html" class="services-btn">SERVICE DETAILS</a>
+                            <h3>Pre-Contract Services</h3>
+                            <p>Preparation of Prequalification, Tender and Contract Documents.
+                              Pre-qualification of Bidders...
+                            </p><br>
+                            <a href="/precontractDetails" class="services-btn">SERVICE DETAILS</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
-                        <img src="img/servic-4.jpg" alt="theconstructo.com">
+                        <img src="img/servic-6.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
                         <div class="services-content">
-                            <h3>CONSTRUCTION WORKS</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit dapibus ut ac justo. </p>
-                            <a href="single-services.html" class="services-btn">SERVICE DETAILS</a>
+                            <h3>Project Implementation</h3>
+                            <p>Construction Supervision and Contract Administration...</p>
+                            <br>
+                            <br>
+                            <a href="/implementDetails" class="services-btn">SERVICE DETAILS</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
-                        <img src="img/servic-5.jpg" alt="theconstructo.com">
+                        <img src="img/operation.jpg" alt="theconstructo.com" style="height: 219.88px; width: 100%">
                         <div class="services-content">
-                            <h3>WORKERS & STUFFS</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit dapibus ut ac justo. </p>
-                            <a href="single-services.html" class="services-btn">SERVICE DETAILS</a>
+                            <h3>Operation, Maintenance and Management</h3>
+                            <p>O & M Services (Project Operation & Maintenance Plans)...</p>
+                            <a href="/operationDetails" class="services-btn">SERVICE DETAILS</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
-                        <img src="img/servic-6.jpg" alt="theconstructo.com">
+                        <img src="img/training.jpg" alt="theconstructo.com" style="height: 208.88px; width: 100%">
                         <div class="services-content">
-                            <h3>INTERIOR DESIGNS</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit dapibus ut ac justo. </p>
-                            <a href="single-services.html" class="services-btn">SERVICE DETAILS</a>
+                            <h3>Training and Workshops
+                            </h3>
+                            <p>Development of Training Programs and Modules...</p>
+                            <br>
+                            <br>
+                            <a href="trainingDetails" class="services-btn">SERVICE DETAILS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-left">
+                    <div class="constructo-single-services">
+                        <img src="img/partnership.jpg" alt="theconstructo.com" style="height: 208.88px; width: 100%">
+                        <div class="services-content">
+                            <h3>Public Private Partnership</h3>
+                            <p>Initiative for promotion of PPPs ...</p>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="/partnershipDetails" class="services-btn">SERVICE DETAILS</a>
                         </div>
                     </div>
                 </div>

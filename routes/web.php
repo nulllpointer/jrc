@@ -79,11 +79,74 @@ Route::get('/services', function () {
 
 });
 
-Route::get('/servicesdetail', function () {
+Route::get('/surveyDetails', function () {
     $aboutus = \App\aboutus::get();
     $notices = \App\notices::get();
     $staffs = \App\staffs::get();
-    return view('single-services', ['aboutus' => $aboutus]);
+    return view('surveyDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/researchDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('researchDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/investigationDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('investigationDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/projectDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('projectDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/precontractDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('precontractDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/implementDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('implementDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/operationDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('operationDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/trainingDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('trainingDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/partnershipDetails', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('partnershipDetails', ['aboutus' => $aboutus]);
+
+});
+Route::get('/architecture', function () {
+    $aboutus = \App\aboutus::get();
+    $notices = \App\notices::get();
+    $staffs = \App\staffs::get();
+    return view('architecture', ['aboutus' => $aboutus]);
 
 });
 

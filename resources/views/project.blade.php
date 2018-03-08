@@ -85,11 +85,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav menu navbar-nav navbar-right">
-                            <li class="active"><a href="index">HOME</a></li>
+                            <li><a href="index">HOME</a></li>
                             <li><a href="/about">ABOUT</a></li>
                             <li><a href="/services">SERVICES</a></li>
                             <li class="active"><a href="/projects">PROJECTS</a></li>
-                            <li><a href="/news">NEWS</a></li>
                             <li><a href="/contact">CONTACT</a></li>
                         </ul>
                     </div>
@@ -146,13 +145,13 @@
                 <div class="col-xs-12 text-center">
                     <div class="isotop-nav">
                         <ul>
-                            <li class="current" data-filter="*">ALL</li>
-                            <li data-filter=".interior">INTERIOR DESIGN</li>
-                            <li data-filter=".archi">ARCHITECTURE</li>
-                            <li data-filter=".planing">PLANNING</li>
-                            <li data-filter=".tiling">TILING</li>
-                            <li data-filter=".plumbning">PLUMBING</li>
-                            <li data-filter=".buildings">BUILDINGS</li>
+                            <li data-filter="*"></li>
+                            <li data-filter=".interior"></li>
+                            <li data-filter=".archi"></li>
+                            <li class = "current" data-filter=".*">All Projects</li>
+                            <li data-filter=".tiling"></li>
+                            <li data-filter=".plumbning"></li>
+                            <li data-filter=".buildings"></li>
                         </ul>
                     </div>
                 </div>
@@ -161,35 +160,36 @@
                 <div class="col-sm-4 interior archi">
                     <div class="constructo-single-project">
                         <div class="project-img">
-                            <img src="img/pro1.png" alt="theconstructo.com">
+                            <img src="img/hydropower.jpg" alt="theconstructo.com" style="height: 267.14px; width: 100% ">
                             <div class="pro-hover">
-                                <a href="img/pro1l.jpg" class="fa magnifiq fa-search"></a>
+                                <a href="img/hydropower.jpg" class="fa magnifiq fa-search"></a>
                             </div>
                         </div>
                         <div class="pro-title">
                             <div class="pro-dat">
                                 <p>15</p>
                             </div>
-                            <h4>Construction Equipments</h4>
+                            <h4>Hydropower/Energy</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 archi buildings">
                     <div class="constructo-single-project">
                         <div class="project-img">
-                            <img src="img/pro2.png" alt="theconstructo.com">
+                            <img src="img/sanitaiton.jpg" alt="theconstructo.com" style="height: 267.14px; width: 100% ">
                             <div class="pro-hover">
-                                <a href="img/pro2l.jpg" class="fa magnifiq fa-search"></a>
+                                <a href="img/sanitation.jpg" class="fa magnifiq fa-search"></a>
                             </div>
                         </div>
                         <div class="pro-title">
                             <div class="pro-dat">
                                 <p>25</p>
                             </div>
-                            <h4>Project Planning</h4>
+                            <h4>Water Supply & Sanitation</h4>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-4 planing interior">
                     <div class="constructo-single-project">
                         <div class="project-img">
@@ -202,155 +202,62 @@
                             <div class="pro-dat">
                                 <p>20</p>
                             </div>
-                            <h4>City Buildings</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 tiling planing">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro4.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro4l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>09</p>
-                            </div>
-                            <h4>Architecture</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 buildings plumbning">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro5.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro5l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>23</p>
-                            </div>
-                            <h4>Interior Design Red</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 planing tiling">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro6.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro6l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>08</p>
-                            </div>
-                            <h4>Heavy Weight Vehicles</h4>
-                        </div>
-                    </div>
-                </div><div class="col-sm-4 interior archi">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro1.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro1l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>15</p>
-                            </div>
-                            <h4>Construction Equipments</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 archi buildings">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro2.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro2l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>25</p>
-                            </div>
-                            <h4>Project Planning</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 planing interior">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro3.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro3l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>20</p>
-                            </div>
-                            <h4>City Buildings</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 tiling planing">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro4.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro4l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>09</p>
-                            </div>
-                            <h4>Architecture</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 buildings plumbning">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro5.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro5l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>23</p>
-                            </div>
-                            <h4>Interior Design Red</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 planing tiling">
-                    <div class="constructo-single-project">
-                        <div class="project-img">
-                            <img src="img/pro6.png" alt="theconstructo.com">
-                            <div class="pro-hover">
-                                <a href="img/pro6l.jpg" class="fa magnifiq fa-search"></a>
-                            </div>
-                        </div>
-                        <div class="pro-title">
-                            <div class="pro-dat">
-                                <p>08</p>
-                            </div>
-                            <h4>Heavy Weight Vehicles</h4>
+                            <h4>Urban Development</h4>
                         </div>
                     </div>
                 </div>
             </div>
-           
+                <div class="col-sm-4 tiling planing">
+                    <div class="constructo-single-project">
+                        <div class="project-img">
+                            <img src="img/waterresource.jpg" alt="theconstructo.com" style="height: 263px; width: 100%">
+                            <div class="pro-hover">
+                                <a href="img/waterresource.jpg" class="fa magnifiq fa-search"></a>
+                            </div>
+                        </div>
+                        <div class="pro-title">
+                            <div class="pro-dat">
+                                <p>09</p>
+                            </div>
+                            <h4>Water Resources</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 buildings plumbning">
+                    <div class="constructo-single-project">
+                        <div class="project-img">
+                            <img src="img/map.jpg" alt="theconstructo.com" style="height: 263px; width: 100%">
+                            <div class="pro-hover">
+                                <a href="img/map.jpg" class="fa magnifiq fa-search"></a>
+                            </div>
+                        </div>
+                        <div class="pro-title">
+                            <div class="pro-dat">
+                                <p>23</p>
+                            </div>
+                            <h4>GIS/Mapping</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 planing tiling">
+                    <div class="constructo-single-project">
+                        <div class="project-img">
+                            <img src="img/pro6.png" alt="theconstructo.com">
+                            <div class="pro-hover">
+                                <a href="img/pro6l.jpg" class="fa magnifiq fa-search"></a>
+                            </div>
+                        </div>
+                        <div class="pro-title">
+                            <div class="pro-dat">
+                                <p>08</p>
+                            </div>
+                            <h4>Overall Experience Sheet</h4>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+
         </div>
     </section>
     <!-- end of project section -->
@@ -362,8 +269,8 @@
                     <div class="footer-top-content">
                         <h2>Ok ! Let's Get Started Now.</h2>
                         <p>Maecenas scelerisque felis ornare placerat tempus. In turpis nisi, viverra hendrerit dolor vel, auctor blandit sapien.</p>
-                        <a href="#" class="contat-usf">CONTACT US</a>
-                        <a href="#" class="learn-moref">LEARN MORE</a>
+                        <a href="/contact" class="contat-usf">CONTACT US</a>
+                        <a href="/about" class="learn-moref">LEARN MORE</a>
                     </div>
                 </div>
             </div>

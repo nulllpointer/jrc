@@ -89,7 +89,6 @@
                             <li><a href="/about">ABOUT</a></li>
                             <li><a href="/services">SERVICES</a></li>
                             <li><a href="/projects">PROJECTS</a></li>
-                            <li><a href="/news">NEWS</a></li>
                             <li class="active"><a href="/contact">CONTACT</a></li>
                         </ul>
                     </div>
