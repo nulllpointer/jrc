@@ -54,7 +54,7 @@
                             <li><span class="fa fa-envelope"></span>contact@jrc.com.np</li>
                         </ul>
                     </div>
-                    <div class="col-sm-6 text-right">
+                   {{-- <div class="col-sm-6 text-right">
                         <div class="social-link">
                             <a href="#" class="fa fa-facebook"></a>
                             <a href="#" class="fa fa-twitter"></a>
@@ -65,7 +65,7 @@
                             <a href="#" class="fa fa-linkedin"></a>
                             <a href="#" class="fa fa-rss"></a>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="theconstructo.com"></a>
+                        <a class="navbar-brand" href="/index"><img src="img/logo.png" alt="theconstructo.com"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
                         <img src="img/servic-4.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
@@ -279,6 +279,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
                         <img src="img/servic-6.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
@@ -291,6 +292,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
                         <img src="img/operation.jpg" alt="theconstructo.com" style="height: 219.88px; width: 100%">
@@ -329,6 +331,7 @@
                 </div>
             </div>
         </div>
+
     </section>
     <!-- end of services section -->
     <!-- start services countdown section -->
@@ -532,7 +535,7 @@
     </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                {{--<div class="col-sm-6">
                     <div class="footer-link">
                         <a href="#" class="fa fa-facebook"></a>
                         <a href="#" class="fa fa-twitter"></a>
@@ -543,10 +546,10 @@
                         <a href="#" class="fa fa-vimeo"></a>
                         <a href="#" class="fa fa-tumblr"></a>
                     </div>
-                </div>
-                <div class="col-sm-6 text-right">
+                </div-->--}}
+                <div class="col-sm-12 text-center">
                     <div class="footer-text">
-                        <p>Jigsawlab © All Rights Reserved </p>
+                        <p>JRConsultant © All Rights Reserved </p>
                     </div>
                 </div>
             </div>

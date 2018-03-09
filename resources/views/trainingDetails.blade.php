@@ -54,7 +54,7 @@
                         <li><span class="fa fa-envelope"></span>kazimohammederfan@gmail.com</li>
                     </ul>
                 </div>
-                <div class="col-sm-6 text-right">
+              {{--  <div class="col-sm-6 text-right">
                     <div class="social-link">
                         <a href="#" class="fa fa-facebook"></a>
                         <a href="#" class="fa fa-twitter"></a>
@@ -65,7 +65,7 @@
                         <a href="#" class="fa fa-linkedin"></a>
                         <a href="#" class="fa fa-rss"></a>
                     </div>
-                </div>
+                </div>--}}
             </div>
         </div>
     </div>
@@ -272,7 +272,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+           {{-- <div class="col-sm-6">
                 <div class="footer-link">
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-twitter"></a>
@@ -283,10 +283,10 @@
                     <a href="#" class="fa fa-vimeo"></a>
                     <a href="#" class="fa fa-tumblr"></a>
                 </div>
-            </div>
-            <div class="col-sm-6 text-right">
+            </div>--}}
+            <div class="col-sm-12 text-center">
                 <div class="footer-text">
-                    <p>Jigsawlab © All Rights Reserved </p>
+                    <p>JRConsultant © All Rights Reserved </p>
                 </div>
             </div>
         </div>
