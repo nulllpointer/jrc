@@ -89,7 +89,6 @@
                             <li><a href="/about">ABOUT</a></li>
                             <li><a href="/services">SERVICES</a></li>
                             <li><a href="/projects">PROJECTS</a></li>
-                            <li><a href="/news">NEWS</a></li>
                             <li class="active"><a href="/contact">CONTACT</a></li>
                         </ul>
                     </div>
@@ -122,7 +121,7 @@
         </div>
     </section>
     <!-- end of home area -->
-    <section class="constructo-get-quote-area">
+   {{-- <section class="constructo-get-quote-area">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 text-left">
@@ -138,7 +137,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
     <!-- end of get quate area -->
     <!-- start features area -->
     <section class="constructo-features-area section-padding">

@@ -50,8 +50,8 @@
             <div class="row">
                 <div class="col-sm-6 text-left">
                     <ul class="topaddres">
-                        <li><span class="fa fa-phone"></span> +200 100 5678</li>
-                        <li><span class="fa fa-envelope"></span>contact@jrc.com.np</li>
+                        <li><span class="fa fa-phone"></span> {{$aboutus[0]->mobile}}</li>
+                        <li><span class="fa fa-envelope"></span>{{$aboutus[0]->email}}</li>
                     </ul>
                 </div>
                 <div class="col-sm-6 text-right">
@@ -80,7 +80,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="kazierfan.com"></a>
+                    <a class="" href="index.html"><img style="height: 62px" src="uploads/{{$aboutus[0]->logo}}" alt="uploads/{{$aboutus[0]->logo}}"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -89,7 +89,6 @@
                         <li><a href="/about">ABOUT</a></li>
                         <li><a href="/services">SERVICES</a></li>
                         <li><a href="/projects">PROJECTS</a></li>
-                        <li><a href="/news">NEWS</a></li>
                         <li><a href="/contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -120,9 +119,14 @@
                     <div class="single-slider sliderthree text-center">
                         <div class="welcome-text">
                             <h1>JR</h1>
-                            <h1 class="titlecolor"> CONSULTANCY</h1>
-                            <p>We have an expertise in the field of hydro power. Our </p>
-                            <p>experienced team is available for any civil tasks </p>
+                            <h1 class="titlecolor"> CONSULTANT</h1>
+                            <p>Welcome to the home of one of the renowned engineering consulting firm of Nepal.
+                            <br>
+                            JRC is a company that primarily provides comprehensive solution in Engineering, Environmental and Social studies.  
+
+                            JRC possesses over 28 years of experience working with variety of infrastructure development projects and we strongly believe in high quality services and customer satisfaction.
+                             <br>
+                            </p>
                          {{--   <div class="welcome-btn">
                                 <a href="#" class="btn-start rippler rippler-inverse borderw"><span>LEARN MORE</span></a>
                                 <a href="#" class="btn-start rippler rippler-inverse active"><span>GET STARTED NOW</span></a>
@@ -153,7 +157,8 @@
             <div class="col-sm-8 text-left">
                 <div class="get-quate-content">
                     <h2>HANDLE YOUR PROJECT WITH PROFESSIONALS</h2>
-                    <p>Maecenas scelerisque felis ornare placerat tempus. In turpis nisi, viverra hendrerit dolor vel, auctor blandit sapien. Aenean quis venenatis felis, adipiscing pretium nunc.</p>
+                    <p>Do explore our website and let us know if we can provide you any solution.
+                    </p>
                 </div>
             </div>
             <div class="col-sm-4 text-right">

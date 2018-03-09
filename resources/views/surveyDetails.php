@@ -85,9 +85,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav menu navbar-nav navbar-right">
-                            <li class="active"><a href="index">HOME</a></li>
+                            <li><a href="index">HOME</a></li>
                             <li><a href="/about">ABOUT</a></li>
-                            <li><a href="/services">SERVICES</a></li>
+                            <li class="active"><a href="/services">SERVICES</a></li>
                             <li><a href="/projects">PROJECTS</a></li>
                             <li><a href="/news">NEWS</a></li>
                             <li><a href="/contact">CONTACT</a></li>
@@ -109,10 +109,10 @@
                     <div class="col-xs-12 text-left">
                         <div class="constructo-page-title">
                             <h1>OUR</h1>
-                            <h1 class="titlecolor">LATEST NEWS</h1>
+                            <h1 class="titlecolor">Services</h1>
                             <ol class="breadcrumb">
                                 <li><a href="index.html">Home</a></li>
-                                <li class="active"><a href="#">News</a></li>
+                                <li class="active"><a href="/services">services</a></li>
                             </ol>
                             <img src="img/linew.png" alt="theconstructo.com">
                         </div>
@@ -128,14 +128,10 @@
                 <div class="col-sm-8 text-left">
                     <div class="get-quate-content">
                         <h2>HANDLE YOUR PROJECT WITH PROFESSIONALS</h2>
-                        <p>Maecenas scelerisque felis ornare placerat tempus. In turpis nisi, viverra hendrerit dolor vel, auctor blandit sapien. Aenean quis venenatis felis, adipiscing pretium nunc.</p>
+                        <p>JRC possesses over 28 years of experience working with variety of infrastructure development projects and we strongly believe in high quality services and customer satisfaction.</p>
+
                     </div>
-                </div>
-                <div class="col-sm-4 text-right">
-                    <div class="get-btn">
-                        <a href="#">GET A QUOTE</a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -147,48 +143,33 @@
                 <div class="col-md-8 col-sm-7">
                     <div class="single-news-post">
                         <div class="news-post-img">
-                            <img src="img/post2.jpg" alt="theconstructo.com">
+                            <img src="img/survey.jpg" alt="theconstructo.com">
                         </div>
                         <div class="post-title">
-                            <h2>HEAVY CONSTRUCTION EQUIPMENTS</h2>
+                            <h2>Survey and Assessment</h2>
                         </div>
-                        <div class="date">
-                            <p>Posted by : <span>Emma Walt</span> // On : <span>01 Jan, 2015</span></p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. </p>
-                        <blockquote></blockquote>
-                        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                         <div class="row single-news-paddint">
-                            <div class="col-md-4 text-left">
+
+                            <div class="col-md-6 text-left">
                                 <div class="about-list">
                                     <ul>
-                                        <li>Metal Roofing</li>
-                                        <li>Responsive Layout</li>
-                                        <li>Excavating Equipments</li>
-                                        <li>Fully Out of Box Solution</li>
-                                        <li>Multiple Headers</li>
+                                    <li>Land Use, Topographic and Resource Survey/Appraisal</li>
+                                    <li>Geology, Hydrology and Soil Survey and Mapping</li>
+                                    <li>Traffic and Structural Survey</li>
+
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-left">
+                            <div class="col-md-6 text-left">
                                 <div class="about-list">
                                     <ul>
-                                        <li>Metal Roofing</li>
-                                        <li>Responsive Layout</li>
-                                        <li>Excavating Equipments</li>
-                                        <li>Fully Out of Box Solution</li>
-                                        <li>Multiple Headers</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4 text-left">
-                                <div class="about-list">
-                                    <ul>
-                                        <li>Metal Roofing</li>
-                                        <li>Responsive Layout</li>
-                                        <li>Excavating Equipments</li>
-                                        <li>Fully Out of Box Solution</li>
-                                        <li>Multiple Headers</li>
+                                        <li>Construction Materials Survey</li>
+                                        <li>Natural Resource Survey
+                                        </li>
+                                        <li>Drainage Surveys and Evaluation, Land Drainage Characteristics and Drainage Requirements Identification
+                                        </li>
+                                        <li>Water Resources
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -204,78 +185,72 @@
                             </div>
                             <div class="features-side-slider">
                                 <div class="single-side-features">
-                                    <a href="#">
+                                    <a href="/trainingDetails">
                                         <div class="sideimg">
-                                            <img src="img/side-1.png" alt="theconstructo.com">
+                                            <img src="img/training.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Training and Workshops
+                                            </p>
                                         </div>
                                     </a>
-                                    <a href="#">
+                                    <a href="/surveyDetails">
                                         <div class="sideimg">
-                                            <img src="img/side-2.jpg" alt="theconstructo.com">
+                                            <img src="img/survey.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Survey and Assessment</p>
                                         </div>
                                     </a>
-                                    <a href="#">
+                                    <a href="/researchDetails">
                                         <div class="sideimg">
-                                            <img src="img/side-3.jpg" alt="theconstructo.com">
+                                            <img src="img/research.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Research and Studies</p>
+
                                         </div>
                                     </a>
-                                    <a href="#">
+                                    <a href="/investigationDetails">
                                         <div class="sideimg">
-                                            <img src="img/side-4.jpg" alt="theconstructo.com">
+                                            <img src="img/servic-3.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Investigation, Testing and Analysis</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="single-side-features">
-                                    <a href="#">
+                                    <a href="/projectDetails">
                                         <div class="sideimg">
-                                            <img src="img/side-1.png" alt="theconstructo.com">
+                                            <img src="img/servic-4.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Project Planning and Design</p>
                                         </div>
                                     </a>
-                                    <a href="#">
+                                    <a href="/precontractDetails">
                                         <div class="sideimg">
-                                            <img src="img/side-2.jpg" alt="theconstructo.com">
+                                            <img src="img/servic-5.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Pre-Contract Services</p>
                                         </div>
                                     </a>
-                                    <a href="#">
+                                    <a href="/implementDetails">
                                         <div class="sideimg">
-                                            <img src="img/side-3.jpg" alt="theconstructo.com">
+                                            <img src="img/servic-6.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Project Implementation</p>
                                         </div>
                                     </a>
-                                    <a href="#">
+                                    <a href="/operationDetails">
                                         <div class="sideimg">
                                             <img src="img/side-4.jpg" alt="theconstructo.com">
                                         </div>
                                         <div class="side-title">
-                                            <p>From 0 To 14 Clients & $140 a Month Case Study</p>
-                                            <p>By : <span>Emma Walt</span></p>
+                                            <p>Operation, Maintenance and Management</p>
                                         </div>
                                     </a>
                                 </div>

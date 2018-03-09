@@ -98,7 +98,6 @@
                         <li class="active"><a href="/about">ABOUT</a></li>
                         <li><a href="/services">SERVICES</a></li>
                         <li><a href="/projects">PROJECTS</a></li>
-                        <li><a href="/news">NEWS</a></li>
                         <li><a href="/contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -117,7 +116,7 @@
                 <div class="col-xs-12 text-left">
                     <div class="constructo-page-title">
                         <h1>ABOUT</h1>
-                        <h1 class="titlecolor">CONSTRUCTO</h1>
+                        <h1 class="titlecolor">JR CONSULTANT</h1>
                         <ol class="breadcrumb">
                             <li><a href="index.html">Home</a></li>
                             <li class="active"><a href="#">About</a></li>
@@ -138,7 +137,8 @@
             <div class="col-xs-12 text-center">
                 <div class="section-title">
                     <h2>ABOUT US</h2>
-                    <p>A brief story about how this process works, keep an eye till the end.</p>
+                    <p>The company was established in the year 1990 A.D as an Engineering Consulting Firm  providing a wide range of services across diverse sectors as J. R. Consultant
+                    </p>
                     <div class="line">
                         <img src="img/line.png" alt="theconstructo.com">
                     </div>
@@ -156,33 +156,14 @@
             </div>
             <div class="col-sm-12 col-md-5 col-md-offset-1">
                 <div class="constructo-aboutUs-content">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type love the specimen book. </p>
-                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <div class="row">
-                        <div class="col-sm-6 text-left">
-                            <div class="about-list">
-                                <ul>
-                                    <li>Metal Roofing</li>
-                                    <li>Responsive Layout</li>
-                                    <li>Excavating Equipments</li>
-                                    <li>Fully Out of Box Solution</li>
-                                    <li>Multiple Headers</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 text-left">
-                            <div class="about-list">
-                                <ul>
-                                    <li>Metal Roofing</li>
-                                    <li>Responsive Layout</li>
-                                    <li>Excavating Equipments</li>
-                                    <li>Fully Out of Box Solution</li>
-                                    <li>Multiple Headers</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" class="btn-readmor">VIEW PROJECTS</a>
+                    <p style="text-align: justify">Country’s development endeavors by providing technical, educational and research expertise appropriate to the historically known but recently acknowledged context of sustainable and environmental friendly devilment.
+                    </p>
+                    <p style="text-align: justify">The main field of activities of our firm is planning, feasibility studies, environment studies, survey, design, supervision and management of the projects within all fields of social, environmental and physical engineering and related sciences. From the outset, our primary concern has always been to render professional services of the highest quality to our clients who include donors, governments, semi-governments, and private enterprises.
+                    </p>
+                    <p style="text-align: justify">JRC has provided consultancy services to most of the government departments and agencies of Government of Nepal. JRC has experience of working in all 75 districts of Nepal covering the Mountains, Hills and the Terai region. The most noteworthy is providing services to the various agencies engaged in the fields of water resources development, urban and rural water supply and sanitation, transportation and urban development, irrigation and agricultural, environmental and social studies, rural development, hydropower and energy.
+                    </p>
+
+                    <a href="/projects" class="btn-readmor">VIEW PROJECTS</a>
                 </div>
             </div>
         </div>
@@ -203,48 +184,64 @@
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingOne">
                                 <h4 class="panel-title">
-                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        PROFESSIONAL PLANNING
+                                    <a role="button">
+                                        Professional Ethic 
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
+
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwo">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        HOME MAINTENANCE
+                                    <a class="collapsed" >
+                                        High Standard 
                                     </a>
                                 </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit.</p>
-                                </div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingThree">
                                 <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        EVERYTHING IN BUDGET
+                                    <a class="collapsed">
+                                        Cost Effectiveness
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo. consectetur adipiscing elit. Nulla id dolor ut mauris tempor dapibus ut ac justo.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit.</p>
-                                </div>
-                            </div>
+
                         </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed">
+                                        Timely Performance
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" >
+                                        Total Quality Assurance
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed">
+                                        Client Satisfaction
+                                    </a>
+                                </h4>
+                            </div>
+
+                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -255,16 +252,35 @@
                 </div>
                 <div class="whychoose-us-content">
                     <div class="single-chose">
-                        <h4><span class="fa fa-check"></span>HANDLE WITH PROFESSIONALISM</h4>
-                        <p>It has always been a debate whether to buy new or used construction equipment. Small fleets prefer to buy used construction equipment investments used construction equipment investments.</p>
+                        <h4><span class="fa fa-check"></span>VISION</h4>
+                        <ul style="list-style-type: circle">
+                            <li>To be a regional leader and global competitor by consistently delivering quality works that meet international standards.</li>
+                            <li>Consistently deliver innovative solutions reinforced by responsive client services and a commitment to quality and excellence.</li>
+                        </ul>
                     </div>
                     <div class="single-chose">
-                        <h4><span class="fa fa-check"></span>WE LOVE WHAT WE DO</h4>
-                        <p>It has always been a debate whether to buy new or used construction equipment. Smaller fleets prefer to buy used construction equipmen investments used construction equipment investments.</p>
+                        <h4><span class="fa fa-check"></span>MISSION</h4>
+                       <UL style="list-style-type: circle">
+                           <LI> Consistently deliver innovative solutions reinforced by responsive client services and a commitment to quality and excellence.
+                           </LI>
+                           <LI> Aspire to lead the national and global markets by delivering standard services to satisfy the needs of clients, the growth and pride of our employees and the overall satisfaction of competing in the consulting profession.
+                           </LI>
+                           <LI> Strive to support the projects with the most advanced technology and consistently improve deliverables to clients.
+                           </LI>
+
+                       </UL>
+
                     </div>
                     <div class="single-chose">
-                        <h4><span class="fa fa-check"></span>HANDLE WITH PROFESSIONALISM</h4>
-                        <p>Smaller fleets prefer to buy used construction equipment as they attract less capital so do investments.</p>
+                        <h4><span class="fa fa-check"></span>Objectives</h4>
+                        <ul style="list-style-type: circle">
+                        <li>Development endeavors by providing appropriate technical, educational and research expertise in the known but context of sustainable development.
+                        </li>
+                        <li>Eventual amelioration of the difficult livelihood of the majority of rural people who survive at subsistence levels.
+                        </li>
+                        <li>Mitigation of environmental degradation due to development activities: Socio-economical impacts of development interventions.
+                        </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -273,71 +289,31 @@
 </section>
 <!-- end of why choose us section -->
 <!-- start team section -->
-<section class="constructo-team-section section-padding">
+<!-- <section class="constructo-team-section section-padding">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 text-center">
+            <div class="col-xs-12 ">
                 <div class="section-title">
-                    <h2>OUR TEAM</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when.</p>
-                    <div class="line">
-                        <img src="img/line.png" alt="theconstructo.com">
+                    <h2>Company Philosophy (Our Values)</h2>
+                    <BR>
+                    <div class="about-list">
+                        <ul>
+                            <li>Transparency</li>
+                            <li>Interdisciplinary Approach</li>
+                            <li>National Capacity Building</li>
+                            <li>Networking and Alliances</li>
+                            <li>Corporate Responsibilities</li>
+                            <li>Professional Accountability</li>
+
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row active-team-slider padding-top">
-            <div class="col-sm-4 text-center">
-                <div class="single-team">
-                    <div class="team-img">
-                        <img src="img/team-1.png" alt="theconstructo.com">
-                        <div class="team-hover">
-                            <a href="#" class="fa fa-link"></a>
-                        </div>
-                    </div>
-                    <h3>MICK JHONSON</h3>
-                    <p>Plumber Manager</p>
-                </div>
-            </div>
-            <div class="col-sm-4 text-center">
-                <div class="single-team">
-                    <div class="team-img">
-                        <img src="img/team-2.png" alt="theconstructo.com">
-                        <div class="team-hover">
-                            <a href="#" class="fa fa-link"></a>
-                        </div>
-                    </div>
-                    <h3>EMMA WATSON</h3>
-                    <p>Prodauct Manager</p>
-                </div>
-            </div>
-            <div class="col-sm-4 text-center">
-                <div class="single-team">
-                    <div class="team-img">
-                        <img src="img/team-3.png" alt="theconstructo.com">
-                        <div class="team-hover">
-                            <a href="#" class="fa fa-link"></a>
-                        </div>
-                    </div>
-                    <h3>JHON DOE</h3>
-                    <p>Construction Manager</p>
-                </div>
-            </div>
-            <div class="col-sm-4 text-center">
-                <div class="single-team">
-                    <div class="team-img">
-                        <img src="img/team-1.png" alt="theconstructo.com">
-                        <div class="team-hover">
-                            <a href="#" class="fa fa-link"></a>
-                        </div>
-                    </div>
-                    <h3>MICK JHONSON</h3>
-                    <p>Plumber Manager</p>
-                </div>
+
+    </div>
             </div>
         </div>
     </div>
 </section>
+-->
 <!-- end of team section -->
 <!-- start client say section -->
 <!-- end of client section -->
