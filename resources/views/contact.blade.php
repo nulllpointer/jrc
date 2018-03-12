@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CONSTRUCTO | Ultimate Construction Template</title>
+    <title>JR Consultant | Civil Engineering Consultancy</title>
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -50,22 +50,22 @@
                 <div class="row">
                     <div class="col-sm-6 text-left">
                         <ul class="topaddres">
-                            <li><span class="fa fa-phone"></span> +200 100 5678</li>
-                            <li><span class="fa fa-envelope"></span>contact@jrc.com.np</li>
+                            <li><span class="fa fa-phone"></span> {{$aboutus[0]->mobile}}</li>
+                            <li><span class="fa fa-envelope"></span>{{$aboutus[0]->email}}</li>
                         </ul>
                     </div>
-                    <div class="col-sm-6 text-right">
-                        <div class="social-link">
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-google"></a>
-                            <a href="#" class="fa fa-pinterest"></a>
-                            <a href="#" class="fa fa-dribbble"></a>
-                            <a href="#" class="fa fa-vine"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
-                            <a href="#" class="fa fa-rss"></a>
-                        </div>
-                    </div>
+                    {{--  <div class="col-sm-6 text-right">
+                          <div class="social-link">
+                              <a href="#" class="fa fa-facebook"></a>
+                              <a href="#" class="fa fa-twitter"></a>
+                              <a href="#" class="fa fa-google"></a>
+                              <a href="#" class="fa fa-pinterest"></a>
+                              <a href="#" class="fa fa-dribbble"></a>
+                              <a href="#" class="fa fa-vine"></a>
+                              <a href="#" class="fa fa-linkedin"></a>
+                              <a href="#" class="fa fa-rss"></a>
+                          </div>
+                      </div>--}}
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="theconstructo.com"></a>
+                        <a class="" href="index.html"><img style="height: 62px" src="uploads/{{$aboutus[0]->logo}}" alt="uploads/{{$aboutus[0]->logo}}"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -152,8 +152,8 @@
                             </div>
                         </div>
                         <h4>ADDRESS</h4>
-                        <p>57, Culgoa Circuit, O'Malley,</p>
-                        <p>Sydney, Australia</p>
+                        <p>{{$aboutus[0]->address}}</p>
+                        <p>Mahendranagar, Nepal</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 text-center">
@@ -165,8 +165,8 @@
                             </div>
                         </div>
                         <h4>PHONE NUMBERS</h4>
-                        <p>Phone : 0161594805</p>
-                        <p>Mobile : 0124893210</p>
+                        <p>Contact : {{$aboutus[0]->mobile}}</p>
+                        <p>Name : Harendra Kalauni</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 text-center">
@@ -178,8 +178,8 @@
                             </div>
                         </div>
                         <h4>E-MAIL</h4>
-                        <p>kazimohammederfan@gmail.com</p>
-                        <p>hello@kazierfan.com</p>
+                        <p>contact@jrc.com.np</p>
+                        <p>jrconsultant.jrc@gmail.com</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 text-center">
@@ -191,7 +191,7 @@
                             </div>
                         </div>
                         <h4>WORKING HOURS</h4>
-                        <p>Mon to Sat : 0900 - 1900</p>
+                        <p>Sun to Fri : 0900 - 1900</p>
                     </div>
                 </div>
             </div>
@@ -215,20 +215,89 @@
             <div class="row padding-top">
                 <div class="col-sm-5">
                     <div class="google-map-area">
-                        <div class="googlemap" id="gmap">
+                        <div class="googlemap" id="gmap" style="height: 385px">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-7">
-                    <div class="contact-form">
-                        <form action="#">
-                            <input type="text" placeholder="Name" class="single-input">
-                            <input type="text" placeholder="Email" class="single-input">
-                            <input type="text" placeholder="Subject" class="single-input">
-                            <textarea placeholder="Message" class="single-input"></textarea>
-                            <input type="submit" class="submit" value="SEND MESSAGE">
-                        </form>
-                    </div>
+                    <h2 style="color: #ffffff">Send us a message</h2>
+
+
+                    <form id="contact-form" method="post" action="/sendform" role="form">
+                        {{ csrf_field() }}
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6" style="    margin-top: 20px;">
+                                    <div class="form-group">
+                                        <label for="form_name">&nbsp&nbspFirstname *</label>
+                                        <input style="font-size: small;" id="form_name" type="text" name="name"
+                                               class="form-control" placeholder="  Please enter your firstname"
+                                               required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="    margin-top: 20px;">
+                                    <div class="form-group">
+                                        <label for="form_lastname">&nbsp&nbspLastname *</label>
+                                        <input style="font-size: small;" id="form_lastname" type="text" name="surname"
+                                               class="form-control" placeholder="  Please enter your lastname" required="required"
+                                               data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">&nbsp&nbspEmail *</label>
+                                        <input style="font-size: small;" id="form_email" type="email" name="email"
+                                               class="form-control" placeholder="  Please enter your email" required="required"
+                                               data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">&nbspPhone *</label>
+                                        <input style="font-size: small;" id="form_phone" type="tel" name="phone"
+                                               class="form-control" placeholder="  Please enter your phone" required="required"
+                                               data-error="Valid phone number is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">&nbsp&nbspMessage *</label>
+                                        <textarea style="padding-left: 0px;font-size: small;" id="form_message" name="message" class="form-control" placeholder="  Message for me " rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                {{--  <div class="col-md-12">
+                                      <div class="form-group">
+                                          <!-- Replace data-sitekey with your own one, generated at https://www.google.com/recaptcha/admin -->
+                                          <div class="g-recaptcha" data-sitekey="6LfQH0UUAAAAAD_kdC3csxLUHV9SlS33tZqLpK9u"></div>
+                                      </div>
+                                  </div>
+        --}}
+                                <div class="col-md-12">
+                                    <input   type="submit" class="btn btn-success btn-send"  value="Send message">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
                 </div>
             </div>
         </div>
@@ -240,7 +309,7 @@
     </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                {{--<div class="col-sm-6">
                     <div class="footer-link">
                         <a href="#" class="fa fa-facebook"></a>
                         <a href="#" class="fa fa-twitter"></a>
@@ -251,15 +320,19 @@
                         <a href="#" class="fa fa-vimeo"></a>
                         <a href="#" class="fa fa-tumblr"></a>
                     </div>
-                </div>
-                <div class="col-sm-6 text-right">
+                </div>--}}
+                <div class="col-sm-12 text-center">
                     <div class="footer-text">
-                        <p>Jigsawlab © All Rights Reserved </p>
+                        <p>JRConsultant © All Rights Reserved </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn4uayw359fjMh4P9i2rKKZYHzXaqTRNs"></script>
     <!-- jquery min js -->
     <script src="js/jquery.min.js"></script>

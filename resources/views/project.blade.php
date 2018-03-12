@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CONSTRUCTO | Ultimate Construction Template</title>
+    <title>JR Consultant | Civil Engineering Consultancy</title>
     <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -50,22 +50,22 @@
             <div class="row">
                 <div class="col-sm-6 text-left">
                     <ul class="topaddres">
-                        <li><span class="fa fa-phone"></span> +200 100 5678</li>
-                        <li><span class="fa fa-envelope"></span>contact@jrc.com.np</li>
+                        <li><span class="fa fa-phone"></span> {{$aboutus[0]->mobile}}</li>
+                        <li><span class="fa fa-envelope"></span>{{$aboutus[0]->email}}</li>
                     </ul>
                 </div>
-                <div class="col-sm-6 text-right">
-                    <div class="social-link">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google"></a>
-                        <a href="#" class="fa fa-pinterest"></a>
-                        <a href="#" class="fa fa-dribbble"></a>
-                        <a href="#" class="fa fa-vine"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <a href="#" class="fa fa-rss"></a>
-                    </div>
-                </div>
+                {{--  <div class="col-sm-6 text-right">
+                      <div class="social-link">
+                          <a href="#" class="fa fa-facebook"></a>
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-google"></a>
+                          <a href="#" class="fa fa-pinterest"></a>
+                          <a href="#" class="fa fa-dribbble"></a>
+                          <a href="#" class="fa fa-vine"></a>
+                          <a href="#" class="fa fa-linkedin"></a>
+                          <a href="#" class="fa fa-rss"></a>
+                      </div>
+                  </div>--}}
             </div>
         </div>
     </div>
@@ -74,14 +74,13 @@
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="theconstructo.com"></a>
+                    <a class="" href="index.html"><img style="height: 62px" src="uploads/{{$aboutus[0]->logo}}" alt="uploads/{{$aboutus[0]->logo}}"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -150,7 +149,7 @@
                         <li data-filter="*"></li>
                         <li data-filter=".interior"></li>
                         <li data-filter=".archi"></li>
-                        <li class="current" data-filter=".*">Our Projects</li>
+                        <li class="current" data-filter=".*">All Projects</li>
                         <li data-filter=".tiling"></li>
                         <li data-filter=".plumbning"></li>
                         <li data-filter=".buildings"></li>
@@ -287,21 +286,21 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <div class="footer-link">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-google-plus"></a>
-                    <a href="#" class="fa fa-feed"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="#" class="fa fa-skype"></a>
-                    <a href="#" class="fa fa-vimeo"></a>
-                    <a href="#" class="fa fa-tumblr"></a>
-                </div>
-            </div>
-            <div class="col-sm-6 text-right">
+            {{--  <div class="col-sm-6">
+                  <div class="footer-link">
+                      <a href="#" class="fa fa-facebook"></a>
+                      <a href="#" class="fa fa-twitter"></a>
+                      <a href="#" class="fa fa-google-plus"></a>
+                      <a href="#" class="fa fa-feed"></a>
+                      <a href="#" class="fa fa-linkedin"></a>
+                      <a href="#" class="fa fa-skype"></a>
+                      <a href="#" class="fa fa-vimeo"></a>
+                      <a href="#" class="fa fa-tumblr"></a>
+                  </div>
+              </div>--}}
+            <div class="col-sm-12 text-center">
                 <div class="footer-text">
-                    <p>Jigsawlab © All Rights Reserved </p>
+                    <p>JRConsultant © All Rights Reserved </p>
                 </div>
             </div>
         </div>

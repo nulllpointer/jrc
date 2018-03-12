@@ -6,4 +6,4 @@ Message: {{$messages}}
 
 
 
-
+Note: Do not reply directly to this mail.

@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CONSTRUCTO | Ultimate Construction Template</title>
+    <title>JR Consultant | Civil Engineering Consultancy</title>
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -50,22 +50,22 @@
                 <div class="row">
                     <div class="col-sm-6 text-left">
                         <ul class="topaddres">
-                            <li><span class="fa fa-phone"></span> +200 100 5678</li>
-                            <li><span class="fa fa-envelope"></span>contact@jrc.com.np</li>
+                            <li><span class="fa fa-phone"></span> {{$aboutus[0]->mobile}}</li>
+                            <li><span class="fa fa-envelope"></span>{{$aboutus[0]->email}}</li>
                         </ul>
                     </div>
-                    <div class="col-sm-6 text-right">
-                        <div class="social-link">
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-google"></a>
-                            <a href="#" class="fa fa-pinterest"></a>
-                            <a href="#" class="fa fa-dribbble"></a>
-                            <a href="#" class="fa fa-vine"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
-                            <a href="#" class="fa fa-rss"></a>
-                        </div>
-                    </div>
+                    {{--  <div class="col-sm-6 text-right">
+                          <div class="social-link">
+                              <a href="#" class="fa fa-facebook"></a>
+                              <a href="#" class="fa fa-twitter"></a>
+                              <a href="#" class="fa fa-google"></a>
+                              <a href="#" class="fa fa-pinterest"></a>
+                              <a href="#" class="fa fa-dribbble"></a>
+                              <a href="#" class="fa fa-vine"></a>
+                              <a href="#" class="fa fa-linkedin"></a>
+                              <a href="#" class="fa fa-rss"></a>
+                          </div>
+                      </div>--}}
                 </div>
             </div>
         </div>
@@ -80,14 +80,14 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="theconstructo.com"></a>
+                        <a class="" href="index.html"><img style="height: 62px" src="uploads/{{$aboutus[0]->logo}}" alt="uploads/{{$aboutus[0]->logo}}"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav menu navbar-nav navbar-right">
                             <li><a href="index">HOME</a></li>
                             <li><a href="/about">ABOUT</a></li>
-                            <li class="active"><a href="/services">SERVICES</a></li>
+                            <li class="active"><a  href="/services">SERVICES</a></li>
                             <li><a href="/projects">PROJECTS</a></li>
                             <li><a href="/contact">CONTACT</a></li>
                         </ul>
@@ -111,7 +111,7 @@
                                 <h1 class="titlecolor">SERVICES</h1>
                                 <ol class="breadcrumb">
                                     <li><a href="index.html">Home</a></li>
-                                    <li class="active"><a href="#">Services</a></li>
+                                    <li><a href="#">Services</a></li>
                                 </ol>
                                 <img src="img/linew.png" alt="theconstructo.com">
                             </div>
@@ -210,7 +210,7 @@
                 <div class="col-xs-12 text-center">
                     <div class="section-title">
                         <h2>WHAT WE DO</h2>
-                        <p>JRC provides integrated and multi-disciplinary professional services from concept formulation to completion of the Projects/Studies in order to tailor the requirements of clients.</p>
+                        <p style="font-size: 22px;">JRC provides integrated and multi-disciplinary professional services from concept formulation to completion of the Projects/Studies in order to tailor the requirements of clients.</p>
                         <div class="line">
                             <img src="img/line.png" alt="theconstructo.com">
                         </div>
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
                         <img src="img/servic-4.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
@@ -274,11 +274,12 @@
                             <h3>Pre-Contract Services</h3>
                             <p>Preparation of Prequalification, Tender and Contract Documents.
                               Pre-qualification of Bidders...
-                            </p><br>
+                            </p><br><br>
                             <a href="/precontractDetails" class="services-btn">SERVICE DETAILS</a>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
                         <img src="img/servic-6.jpg" alt="theconstructo.com" style="height: 240.11px; width: 100%">
@@ -291,6 +292,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-4 text-left">
                     <div class="constructo-single-services">
                         <img src="img/operation.jpg" alt="theconstructo.com" style="height: 219.88px; width: 100%">
@@ -308,6 +310,7 @@
                             <h3>Training and Workshops
                             </h3>
                             <p>Development of Training Programs and Modules...</p>
+                            <br>
                             <br>
                             <br>
                             <a href="trainingDetails" class="services-btn">SERVICE DETAILS</a>
@@ -329,6 +332,7 @@
                 </div>
             </div>
         </div>
+
     </section>
     <!-- end of services section -->
     <!-- start services countdown section -->
@@ -532,7 +536,7 @@
     </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-6">
+                {{--<div class="col-sm-6">
                     <div class="footer-link">
                         <a href="#" class="fa fa-facebook"></a>
                         <a href="#" class="fa fa-twitter"></a>
@@ -543,10 +547,10 @@
                         <a href="#" class="fa fa-vimeo"></a>
                         <a href="#" class="fa fa-tumblr"></a>
                     </div>
-                </div>
-                <div class="col-sm-6 text-right">
+                </div-->--}}
+                <div class="col-sm-12 text-center">
                     <div class="footer-text">
-                        <p>Jigsawlab © All Rights Reserved </p>
+                        <p>JRConsultant © All Rights Reserved </p>
                     </div>
                 </div>
             </div>

@@ -1362,7 +1362,6 @@ ul.topaddres li span {
 
 .panel-heading a:before {
     position: absolute;
-    content: "\f067";
     right: 5%;
     top: 0;
     height: 100%;
@@ -1540,13 +1539,13 @@ input.single-input {
     height: 50px;
     border: 0;
     border-bottom: 1px solid #ccc;
-    color: #ccc;
+    color: black;
     margin-bottom: 30px;
 }
 
 .contact-form {
     background: #fff;
-    padding: 50px;
+    padding: 34px;
 }
 
 textarea.single-input {

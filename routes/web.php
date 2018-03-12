@@ -151,8 +151,6 @@ Route::get('/architecture', function () {
 });
 
 
-
-
 Route::get('/projects   ', function () {
     $aboutus = \App\aboutus::get();
     $documents = \App\documents::get();
@@ -182,7 +180,6 @@ Route::get('/map   ', function () {
     return view('map', ['documents' => $documents, 'aboutus' => $aboutus]);
 
 });
-
 
 
 /*Route::get('/contact.php', function () {
@@ -297,14 +294,14 @@ Route::post(/**
     $data = array('name' => "$name", 'surname' => "$surname", 'phone' => "$phone", 'messages' => "$messages", 'email' => "$email");
 
     Mail::send(['text' => 'mail'], $data, function ($message) use ($email) {
-        $message->to('contact@itgnepal.com.np')->subject
-        ('Message from itgnepalweb');
+        $message->to('jrconsultant.jrc@gmail.com')->subject
+        ('Message from jrcwebemail');
         $message->from($email);
 
     });
 
 
-    echo "Email Sent.Thank you for contacting International Trade Group Nepal. We shall get back to you at the earliest";
+    echo "Email Sent.Thank you for contacting JR Construction. We shall get back to you at the earliest";
 
     header("refresh:3; url=contact");
 
